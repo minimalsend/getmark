@@ -1,17 +1,3 @@
-# Flask Web Framework
 Flask==2.3.3
-
-# Processamento de imagens
 Pillow==10.0.1
-
-# Requisições HTTP para baixar imagens
 requests==2.31.0
-
-# Dependências do Flask (instaladas automaticamente)
-Werkzeug==2.3.7
-Jinja2==3.1.2
-itsdangerous==2.1.2
-click==8.1.6
-
-blinker==1.6.2
-gunicorn
