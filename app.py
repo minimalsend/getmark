@@ -7,7 +7,7 @@ from PIL import Image, ImageEnhance
 from flask import Flask, request, send_file, Response
 
 # Configurações
-LOGO_FILENAME = "logo.png"  # Nome do arquivo da logo na mesma pasta
+LOGO_FILENAME = "mark.png"  # Nome do arquivo da logo na mesma pasta
 WATERMARK_OPACITY = 0.8  # Transparência (0.0 a 1.0)
 ROTATION_ANGLE = 45  # Ângulo de rotação (45 graus para diagonal)
 WATERMARK_SCALE = 0.20  # Escala da logo (20% da imagem)
@@ -194,4 +194,5 @@ if __name__ == '__main__':
         print(f"🔄 Padrão: Repetido lado a lado")
         print(f"🌐 Endpoint: http://localhost:5000/watermark?url=URL_DA_IMAGEM")
     
+
     app.run(host='0.0.0.0', port=5000, debug=True)
